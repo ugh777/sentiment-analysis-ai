@@ -1,0 +1,10 @@
+data:
+  raw_path: "data/raw/reviews.csv"
+  test_size: 0.2
+  random_state: 42
+
+model:
+  max_features: 5000
+  ngram_range: [1, 2]
+  C: 1.0
+  save_path: "models/sentiment_model.joblib"
